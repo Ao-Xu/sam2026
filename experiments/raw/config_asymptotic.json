@@ -1,0 +1,11 @@
+{
+  "family": "asymptotic",
+  "replicates": 100,
+  "sizes": "64,128,256,512,1024",
+  "kernel": "periodic_sobolev_order2_closed_form",
+  "tau": 0.02,
+  "gradient_tolerance": 1e-11,
+  "numpy": "1.21.6",
+  "seed_scheme": "family offset + n*1000 + replicate",
+  "kernel_diagonal": 1.0
+}

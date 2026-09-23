@@ -1,0 +1,10 @@
+{
+  "fits": 4000,
+  "rbf_fits": 3000,
+  "bandwidth_fits": 400,
+  "real_fits": 600,
+  "max_gradient": 9.96335561177479e-11,
+  "max_full_gradient": 2.715978357814511e-07,
+  "max_distance_bound": 1.3579891789072555e-05,
+  "bootstrap_repeats": 2000
+}

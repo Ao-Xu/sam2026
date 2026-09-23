@@ -1,0 +1,26 @@
+{
+  "resnet18": {
+    "signal_max_relative_gain_error": 0.01954019848517219,
+    "signal_max_relative_vector_error": 0.011538090096504746,
+    "noise_max_relative_ratio_error": 0.005714132912780334,
+    "noise_positive_ratio_intervals_above_one": 9,
+    "noise_positive_comparisons": 9,
+    "noise_max_absolute_relative_nonlinear_bias": 0.0046334843961185574
+  },
+  "vit_b_16": {
+    "signal_max_relative_gain_error": 0.0062688888530423315,
+    "signal_max_relative_vector_error": 0.004401919968449057,
+    "noise_max_relative_ratio_error": 0.008976707859053246,
+    "noise_positive_ratio_intervals_above_one": 9,
+    "noise_positive_comparisons": 9,
+    "noise_max_absolute_relative_nonlinear_bias": 0.007910625812628264
+  },
+  "counts": {
+    "signal_fits": 72,
+    "noise_fits": 800,
+    "real_fits": 720,
+    "total_optimized_heads": 1592,
+    "independent_noise_label_vectors_per_model": 100,
+    "real_bootstrap_replicates_per_task_model": 30
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "split_rows": 120,
+  "selection_manifests": 30,
+  "summary_rows": 42,
+  "samplewise_candidates_per_split": 55,
+  "max_solver_residual": 9.99175897010482e-10,
+  "max_internal_summary_difference": 2.7755575615628914e-17,
+  "max_paper_summary_difference": 0.0,
+  "max_paper_candidate_loss_difference": 0.0,
+  "split_disjointness": "PASS",
+  "selection_vs_selected_fit": "PASS",
+  "test_pool": "fixed separate cached array; no test-loss selection"
+}

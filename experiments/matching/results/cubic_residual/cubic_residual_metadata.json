@@ -1,0 +1,11 @@
+{
+  "source": "periodic_1024.npz",
+  "tau": 0.02,
+  "raw_remainder_definition": "fit minus complete linear-plus-cubic truncation",
+  "matched_normalized_definition": "(samplewise-minus-control)/epsilon^3",
+  "centered_definition": "normalized difference minus predicted Delta_delta[q]",
+  "expected_raw_order": 5,
+  "expected_uncentered_limit": "Delta_delta[q]",
+  "expected_centered_order": 2,
+  "quadrature": "deterministic 1024-point periodic population"
+}

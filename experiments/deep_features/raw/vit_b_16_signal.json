@@ -1,0 +1,22 @@
+[
+  {
+    "iterations": 21,
+    "gradient_max": 5.5814259618530845e-11,
+    "lipschitz": 0.06290931290497345
+  },
+  {
+    "iterations": 21,
+    "gradient_max": 6.02838054080551e-11,
+    "lipschitz": 0.06290931290497345
+  },
+  {
+    "iterations": 21,
+    "gradient_max": 5.995106607403188e-11,
+    "lipschitz": 0.06290931290497345
+  },
+  {
+    "iterations": 21,
+    "gradient_max": 1.974750906470159e-11,
+    "lipschitz": 0.06290931290497345
+  }
+]

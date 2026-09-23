@@ -1,0 +1,38 @@
+{
+  "quadrature_order": 24,
+  "quadrature_points": 576,
+  "bandwidth": 0.7,
+  "density": "(1+0.6*x1)(1+0.4*x2)/4",
+  "signal": "(x1+0.5*x2)/1.5",
+  "tau": 0.02,
+  "epsilon_grid": [
+    0.08,
+    0.12,
+    0.16,
+    0.24
+  ],
+  "feature_checks": {
+    "node_kernel_diag_max_error": 1.674711480603719e-10,
+    "weighted_feature_trace": 0.9999999999993048
+  },
+  "summary": [
+    {
+      "delta": 0.5,
+      "centered_l2_slope": 1.9833922538598932,
+      "uncentered_l2_slope": -0.0056875178557821045,
+      "max_probe_absolute_error": 9.719573908737941e-05,
+      "max_solver_residual": 1.5521505565340333e-14,
+      "predicted_delta_l2": 0.034237638868452554
+    },
+    {
+      "delta": 1.0,
+      "centered_l2_slope": 1.9635003282323458,
+      "uncentered_l2_slope": -0.023312483058254813,
+      "max_probe_absolute_error": 0.0017424622165281359,
+      "max_solver_residual": 5.224893671552233e-18,
+      "predicted_delta_l2": 0.15270862028256368
+    }
+  ],
+  "paired_parameter_settings": 8,
+  "independently_optimized_objectives": 16
+}

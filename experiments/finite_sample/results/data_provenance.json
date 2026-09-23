@@ -1,0 +1,23 @@
+{
+  "dataset": "UCI Wisconsin Diagnostic Breast Cancer, bundled sklearn copy",
+  "official_urls": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html",
+    "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic"
+  ],
+  "sklearn_version": "1.0.2",
+  "features_sha256": "6b202a2072f9a0385f405a8f8605b1b06f6f36ae6d23d9cd6cbbc0974a416bc7",
+  "labels_sha256": "87c312fd4d24bc09c1ae4226107ad639989de53817109dd83465b2af8125f92b",
+  "hash_encoding": "NumPy native float64 features and native target integer array, C-order; local runtime little endian",
+  "feature_shape": [
+    569,
+    30
+  ],
+  "target_dtype": "int32",
+  "split_seed": 927,
+  "train_size": 398,
+  "test_size": 171,
+  "bootstrap_seeds": "882000+rep",
+  "standardization_fit": "fixed training pool only, frozen across bootstrap fits",
+  "test_access": "evaluation only; no hyperparameter selection",
+  "selection_reason": "packaged real binary-classification features directly match the scalar logistic model; digits was a tentative suggestion, not a selected protocol dataset"
+}

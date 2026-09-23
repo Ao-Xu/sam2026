@@ -1,0 +1,15 @@
+# Analytic matching controls: protocol fixed before results
+
+Existing full normalized features and exact binary logistic objectives are used. No new backbone or feature reduction.
+
+Population: periodic closed kernel from run_experiments.py, tau=.02, k=1; grids 512 and 1024; epsilon=.025,.05,.1,.2; delta=0,.005,.02,.1,.25,.5,1. Independently optimize each objective; matched ridge tau/(4p) and post-fit scale s/(2p). Absolute L2 difference and relative L2 difference have respective upper orders three and two, not universal nonzero leading coefficients. Cross-check four configurations with original Newton Model at grid 256. Float64 full Gram coordinates, convergence residual 1e-13; record any roundoff eigenvalue clipping.
+
+Deep weak-signal: reuse the nine original q/epsilon columns and all four radii on both full backbones; add matched ordinary heads. No new balanced-label Monte Carlo grid.
+
+True labels: same three binary pairs and original independent test pools. For each class take 240 training and 60 validation from its existing 300 training examples using seed 9143000+pair_index. Same split across backbones and methods. No test-driven choice. Ridge grid [.0002,.001,.005,.02,.08,.32]; ties retain first candidate. Select ridge by validation log loss. Calibrated baseline selects ridge jointly with a positive scalar in [.05,20] minimizing validation log loss; bounded scalar minimization in log scale, no intercept. This is a specified bounded calibration search, not an optimality claim over all calibration models.
+
+Methods: fixed ERM tau=.02; samplewise radius 1 tau=.02; analytically matched radius-1 ordinary logistic; validation-tuned ridge; validation-tuned ridge plus scale. Fixed radius isolates the previously reported endpoint question, not a tuned-method ranking. Fit all methods on the same 480 training points. Select hyperparameters on the unresampled train/validation split, then freeze them for 30 paired size-480 multinomial training bootstraps (seed 9143100+pair_index). This measures training variability with selected parameters held fixed, not the whole selection pipeline. Do not refit on validation.
+
+Report average test log loss, Brier, accuracy, centered score/probability variance (ddof=1), paired probability RMS difference and classification disagreement against samplewise. Report paired repeat-bootstrap intervals (2000 resamples, seed 9143200) for loss differences; these condition on the fixed test pool and do not quantify population test uncertainty. Fixed radius and tuned baselines answer reproducibility of gains, not causal attribution or best-performance comparisons. Retain all six settings regardless of outcome.
+
+Implementation uses exact independently optimized objectives, float64, unchanged full features. One independent gradient/optimizer check for modified solver is performed. No grid expansion based on outcome. Raw fits, split indices, bootstrap counts, validation scores, selected parameters, tolerances and code are retained.

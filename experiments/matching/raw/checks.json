@@ -1,0 +1,30 @@
+[
+  {
+    "delta": 0.005,
+    "tau": 0.02,
+    "maximum_prediction_difference": 8.049116928532385e-16,
+    "newton_residual": 1.9082510463365422e-18,
+    "gradient_residual": 4.125764161999612e-17
+  },
+  {
+    "delta": 0.005,
+    "tau": 0.020000125000260417,
+    "maximum_prediction_difference": 7.79103872861942e-16,
+    "newton_residual": 1.8814985776996417e-18,
+    "gradient_residual": 4.091796566928409e-17
+  },
+  {
+    "delta": 0.25,
+    "tau": 0.02,
+    "maximum_prediction_difference": 8.881784197001252e-16,
+    "newton_residual": 5.864858502725498e-18,
+    "gradient_residual": 7.015023966483514e-17
+  },
+  {
+    "delta": 0.25,
+    "tau": 0.020314130998795733,
+    "maximum_prediction_difference": 9.826138224938716e-16,
+    "newton_residual": 1.7389585660723374e-18,
+    "gradient_residual": 3.358823392709469e-17
+  }
+]

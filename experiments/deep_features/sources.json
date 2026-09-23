@@ -1,0 +1,10 @@
+{
+  "cifar_origin": "https://www.cs.toronto.edu/~kriz/cifar.html",
+  "cifar_download": "https://scidata.sjtu.edu.cn/records/p4t8m-rbe26/files/cifar-10-python.tar.gz?download=1",
+  "cifar_md5": "c58f30108f718f92721af3b95e74349a",
+  "model_docs": [
+    "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.resnet18.html",
+    "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.vit_b_16.html"
+  ],
+  "protocol_sha256": "cda7389544feb89d03460d1324c4bee59c51bac3f1ae41f080e94bce3828149e"
+}

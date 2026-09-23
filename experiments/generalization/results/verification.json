@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "weighted": false,
+      "finite_difference_absolute_error": 4.62205967943774e-12,
+      "heldout_prediction_error": 1.1262830945657498e-12,
+      "independent_rkhs_residual": 1.6581872949712513e-14,
+      "stored_residual": 1.6566134788185736e-14,
+      "omitted_gradient_bound": 0.0
+    },
+    {
+      "weighted": true,
+      "finite_difference_absolute_error": 3.636832046453875e-12,
+      "heldout_prediction_error": 3.6745302980922823e-13,
+      "independent_rkhs_residual": 1.3172529881250993e-12,
+      "stored_residual": 1.3172491080966467e-12,
+      "omitted_gradient_bound": 0.0
+    }
+  ],
+  "sampler_means": [
+    0.20134892110443212,
+    0.13223880049416273
+  ],
+  "expected_means": [
+    0.19999999999999998,
+    0.13333333333333333
+  ],
+  "mean_zscores": [
+    1.113834943495507,
+    -0.8713765709870757
+  ],
+  "max_omitted_gradient_bound": 2.305659606967335e-07,
+  "max_full_residual_bound": 2.30623523138489e-07,
+  "max_retained_residual": 9.933248700189423e-11,
+  "max_iterations": 5,
+  "nonconverged": 0
+}

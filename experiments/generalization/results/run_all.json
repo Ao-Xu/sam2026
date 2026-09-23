@@ -1,0 +1,4 @@
+{
+  "numpy": "1.21.6",
+  "blas_threads": 1
+}

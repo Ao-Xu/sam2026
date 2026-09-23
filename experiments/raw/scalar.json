@@ -1,0 +1,362 @@
+[
+  {
+    "p": 0.5,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.0755363147658395e-10,
+    "objective": 0.7443966600735709
+  },
+  {
+    "p": 0.5,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 8.881784197001252e-16,
+    "objective": 0.6943966600735709
+  },
+  {
+    "p": 0.5,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": -1.188540340664835e-08,
+    "objective": 0.8259394198788435
+  },
+  {
+    "p": 0.5,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 8.881784197001252e-16,
+    "objective": 0.7009394198788437
+  },
+  {
+    "p": 0.5,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": -1.0153243509232643e-12,
+    "objective": 0.9740769841801067
+  },
+  {
+    "p": 0.5,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.0,
+    "objective": 0.7240769841801067
+  },
+  {
+    "p": 0.5,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": -7.566379620377196e-09,
+    "objective": 0.6931471805599452
+  },
+  {
+    "p": 0.5,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": -1.356469040012339e-08,
+    "objective": 1.3132616875182228
+  },
+  {
+    "p": 0.5,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 4.440892098500626e-16,
+    "objective": 0.813261687518223
+  },
+  {
+    "p": 0.65,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 0.5981458793563427,
+    "objective": 0.6978647263783321
+  },
+  {
+    "p": 0.65,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.6195391187110565,
+    "objective": 0.652421938413669
+  },
+  {
+    "p": 0.65,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 0.6460546026310839,
+    "objective": 0.7720868380342183
+  },
+  {
+    "p": 0.65,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.6221606663058873,
+    "objective": 0.6584078650249425
+  },
+  {
+    "p": 0.65,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 0.7397458460906057,
+    "objective": 0.9056481344102774
+  },
+  {
+    "p": 0.65,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.6314828395930968,
+    "objective": 0.6795718727250759
+  },
+  {
+    "p": 0.65,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 0.5693492858734073,
+    "objective": 0.6509704581296885
+  },
+  {
+    "p": 0.65,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 0.985058511787916,
+    "objective": 1.204945967166086
+  },
+  {
+    "p": 0.65,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 0.6681560222137976,
+    "objective": 0.7610904569354319
+  },
+  {
+    "p": 0.8,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.2935346881870116,
+    "objective": 0.5516053915428883
+  },
+  {
+    "p": 0.8,
+    "delta": 0.1,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 1.3278548532578434,
+    "objective": 0.5201063840066715
+  },
+  {
+    "p": 0.8,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.3825392966539338,
+    "objective": 0.6047697431213307
+  },
+  {
+    "p": 0.8,
+    "delta": 0.25,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 1.3925355277242033,
+    "objective": 0.5247794599449628
+  },
+  {
+    "p": 0.8,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.5458280118067782,
+    "objective": 0.6982895848925988
+  },
+  {
+    "p": 0.8,
+    "delta": 0.5,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 1.4111541232226228,
+    "objective": 0.5400869178556154
+  },
+  {
+    "p": 0.8,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "ordinary",
+    "optimum": 1.2381251125475135,
+    "objective": 0.5175404126783395
+  },
+  {
+    "p": 0.8,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "samplewise",
+    "optimum": 1.9189679133187456,
+    "objective": 0.8997008830444985
+  },
+  {
+    "p": 0.8,
+    "delta": 1.0,
+    "tau": 0.02,
+    "method": "shared",
+    "optimum": 1.4841159272547755,
+    "objective": 0.5989527409929492
+  }
+]

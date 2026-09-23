@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Fair validation-selected comparison over five independent stratified splits. Entries are mean test log loss with split-level 95\% normal intervals; the fixed test pool is never used for selection. The analytic match is a mechanism control, not a tuned performance baseline.}\label{tab:fair-tuning}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Features & Task & SW tuned & ERM tuned & ERM + scale & Analytic match\\
+\midrule
+ResNet-18 & cat/dog & 0.380\,$\pm$\,0.016 & 0.389\,$\pm$\,0.022 & 0.378\,$\pm$\,0.014 & 0.608\,$\pm$\,0.002\\
+ResNet-18 & car/truck & 0.173\,$\pm$\,0.007 & 0.177\,$\pm$\,0.007 & 0.174\,$\pm$\,0.006 & 0.535\,$\pm$\,0.002\\
+ResNet-18 & plane/ship & 0.175\,$\pm$\,0.005 & 0.176\,$\pm$\,0.011 & 0.182\,$\pm$\,0.012 & 0.522\,$\pm$\,0.001\\
+ViT-B/16 & cat/dog & 0.217\,$\pm$\,0.008 & 0.217\,$\pm$\,0.005 & 0.224\,$\pm$\,0.009 & 0.378\,$\pm$\,0.001\\
+ViT-B/16 & car/truck & 0.082\,$\pm$\,0.008 & 0.076\,$\pm$\,0.005 & 0.152\,$\pm$\,0.136 & 0.249\,$\pm$\,0.001\\
+ViT-B/16 & plane/ship & 0.077\,$\pm$\,0.005 & 0.080\,$\pm$\,0.006 & 0.140\,$\pm$\,0.119 & 0.269\,$\pm$\,0.001\\
+\bottomrule
+\end{tabular}}
+\end{table}

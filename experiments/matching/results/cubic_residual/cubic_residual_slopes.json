@@ -1,0 +1,65 @@
+[
+  {
+    "radius": 0.0,
+    "samplewise_cubic_truncation_slope": 5.002760795827476,
+    "matched_cubic_truncation_slope": 5.002760795827476,
+    "matched_difference_normalized_uncentered_slope": NaN,
+    "matched_difference_centered_slope": NaN,
+    "max_samplewise_cubic_truncation_remainder": 7.907034593214136e-06,
+    "max_centered_matched_difference_remainder": 0.0
+  },
+  {
+    "radius": 0.005,
+    "samplewise_cubic_truncation_slope": 5.002757148999456,
+    "matched_cubic_truncation_slope": 5.002760811052607,
+    "matched_difference_normalized_uncentered_slope": 0.0039518241612132975,
+    "matched_difference_centered_slope": 2.0034091524221487,
+    "max_samplewise_cubic_truncation_remainder": 7.88221395766231e-06,
+    "max_centered_matched_difference_remainder": 5.569290402222614e-06
+  },
+  {
+    "radius": 0.02,
+    "samplewise_cubic_truncation_slope": 5.002745894190295,
+    "matched_cubic_truncation_slope": 5.00276044658168,
+    "matched_difference_normalized_uncentered_slope": 0.003776700743402763,
+    "matched_difference_centered_slope": 2.0034128920465943,
+    "max_samplewise_cubic_truncation_remainder": 7.81120072802765e-06,
+    "max_centered_matched_difference_remainder": 2.1794486134154374e-05
+  },
+  {
+    "radius": 0.1,
+    "samplewise_cubic_truncation_slope": 5.002632697119996,
+    "matched_cubic_truncation_slope": 5.002751610655433,
+    "matched_difference_normalized_uncentered_slope": 0.002774500666284249,
+    "matched_difference_centered_slope": 2.003990254476897,
+    "max_samplewise_cubic_truncation_remainder": 7.561189639705664e-06,
+    "max_centered_matched_difference_remainder": 9.083708316300891e-05
+  },
+  {
+    "radius": 0.25,
+    "samplewise_cubic_truncation_slope": 5.001305533629222,
+    "matched_cubic_truncation_slope": 5.0027034167312205,
+    "matched_difference_normalized_uncentered_slope": 0.0005537449928451939,
+    "matched_difference_centered_slope": 2.0281013578618645,
+    "max_samplewise_cubic_truncation_remainder": 8.331679774334413e-06,
+    "max_centered_matched_difference_remainder": 5.831401092260648e-05
+  },
+  {
+    "radius": 0.5,
+    "samplewise_cubic_truncation_slope": 4.99285504162155,
+    "matched_cubic_truncation_slope": 5.002532248089734,
+    "matched_difference_normalized_uncentered_slope": -0.004346479610566651,
+    "matched_difference_centered_slope": 1.9847253053835583,
+    "max_samplewise_cubic_truncation_remainder": 2.038093527769397e-05,
+    "max_centered_matched_difference_remainder": 0.0013717721983249349
+  },
+  {
+    "radius": 1.0,
+    "samplewise_cubic_truncation_slope": 4.969414095519831,
+    "matched_cubic_truncation_slope": 5.0018657765663805,
+    "matched_difference_normalized_uncentered_slope": -0.020380277464008376,
+    "matched_difference_centered_slope": 1.968189700057032,
+    "max_samplewise_cubic_truncation_remainder": 0.00024885710998534316,
+    "max_centered_matched_difference_remainder": 0.02993413090964823
+  }
+]

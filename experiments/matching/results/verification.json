@@ -1,0 +1,324 @@
+{
+  "status": "PASS",
+  "cpu_gradient_checks": [
+    {
+      "model": "resnet18",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 5.6359081846793995e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 1.88193442487492e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 2.513154086664179e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 6.838535556892759e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 6.8385354783240805e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 3.625120690177751e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 6.025277363997792e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 7.249797229973653e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 6.4284906022335106e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 6.428490478450382e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 5.88657161242969e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 9.295457910712058e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 2.5795785134866075e-13
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 5.826868084402615e-12
+    },
+    {
+      "model": "resnet18",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 5.8268681965070465e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 6.09076686000557e-14
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 9.91676133328617e-14
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 3.3551774629611714e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 6.401013883438784e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        3,
+        5
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 6.4010138146603544e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 2.0413148791748964e-13
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 3.4186472586296225e-13
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 2.127688961263825e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 4.742725549608884e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        1,
+        9
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 7.925767404239675e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "ERM",
+      "cpu_gradient_norm": 2.480825765827573e-13
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Samplewise",
+      "cpu_gradient_norm": 4.211390820312557e-13
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Matched",
+      "cpu_gradient_norm": 7.161721971785609e-15
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Tuned",
+      "cpu_gradient_norm": 6.340354311237232e-12
+    },
+    {
+      "model": "vit_b_16",
+      "pair": [
+        0,
+        8
+      ],
+      "method": "Calibrated",
+      "cpu_gradient_norm": 6.340354362849019e-12
+    }
+  ],
+  "independent_optimizer": [
+    {
+      "model": "resnet18",
+      "weight_difference": 6.396059502061494e-08,
+      "objective": 0.6546939991339589,
+      "success": true
+    },
+    {
+      "model": "vit_b_16",
+      "weight_difference": 1.7280268932691117e-09,
+      "objective": 0.5356849099297332,
+      "success": true
+    }
+  ],
+  "original_newton_checks": [
+    {
+      "delta": 0.005,
+      "tau": 0.02,
+      "maximum_prediction_difference": 8.049116928532385e-16,
+      "newton_residual": 1.9082510463365422e-18,
+      "gradient_residual": 4.125764161999612e-17
+    },
+    {
+      "delta": 0.005,
+      "tau": 0.020000125000260417,
+      "maximum_prediction_difference": 7.79103872861942e-16,
+      "newton_residual": 1.8814985776996417e-18,
+      "gradient_residual": 4.091796566928409e-17
+    },
+    {
+      "delta": 0.25,
+      "tau": 0.02,
+      "maximum_prediction_difference": 8.881784197001252e-16,
+      "newton_residual": 5.864858502725498e-18,
+      "gradient_residual": 7.015023966483514e-17
+    },
+    {
+      "delta": 0.25,
+      "tau": 0.020314130998795733,
+      "maximum_prediction_difference": 9.826138224938716e-16,
+      "newton_residual": 1.7389585660723374e-18,
+      "gradient_residual": 3.358823392709469e-17
+    }
+  ],
+  "split_and_pairing": "PASS",
+  "population_fits": 112,
+  "deep_weak_matched_fits": 72,
+  "bootstrap_head_fits": 900,
+  "validation_head_fits": 36
+}

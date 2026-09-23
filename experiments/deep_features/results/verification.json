@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "independent_checks": [
+    {
+      "model": "resnet18",
+      "kind": "signal",
+      "coefficient_difference": 2.7333646103171728e-08,
+      "reported_gradient_norm": 2.157323643244746e-11,
+      "directional_gradient_error": 5.270570628155766e-12,
+      "independent_optimizer_success": true
+    },
+    {
+      "model": "resnet18",
+      "kind": "noise",
+      "coefficient_difference": 8.814807876797585e-09,
+      "reported_gradient_norm": 3.2554357354809738e-12,
+      "directional_gradient_error": 6.156601053616817e-12,
+      "independent_optimizer_success": true
+    },
+    {
+      "model": "resnet18",
+      "kind": "real",
+      "coefficient_difference": 4.804137272297667e-08,
+      "reported_gradient_norm": 6.578688191517719e-11,
+      "directional_gradient_error": 2.0943290504615852e-12,
+      "independent_optimizer_success": true
+    },
+    {
+      "model": "vit_b_16",
+      "kind": "signal",
+      "coefficient_difference": 2.051385780995232e-08,
+      "reported_gradient_norm": 1.4639320699584926e-11,
+      "directional_gradient_error": 1.2207682889738003e-11,
+      "independent_optimizer_success": true
+    },
+    {
+      "model": "vit_b_16",
+      "kind": "noise",
+      "coefficient_difference": 8.921206885626417e-09,
+      "reported_gradient_norm": 6.155954583268761e-13,
+      "directional_gradient_error": 3.0366175001492017e-12,
+      "independent_optimizer_success": true
+    },
+    {
+      "model": "vit_b_16",
+      "kind": "real",
+      "coefficient_difference": 5.647182366246089e-09,
+      "reported_gradient_norm": 8.520345132499022e-11,
+      "directional_gradient_error": 4.507548414384166e-12,
+      "independent_optimizer_success": true
+    }
+  ],
+  "feature_and_conditional_covariance_checks": "PASS"
+}

@@ -1,0 +1,64 @@
+{
+  "counts": {
+    "e1": 252,
+    "e2": 1800,
+    "reference": 12,
+    "weak": 36
+  },
+  "max_residual": 9.933248700189423e-11,
+  "max_distance_bound": 1.1528813439421026e-05,
+  "e1_max_fourier_grid_difference": 3.0880134560540284e-10,
+  "reference_max_relative_covariance_difference": 7.469789991894348e-16,
+  "weak_max_projection_grid_difference": 1.942890293094024e-16,
+  "e1_initial_attenuation_count": 7,
+  "e1_initial_amplification_count": 11,
+  "e1_initial_total": 18,
+  "e1_large_radius_sign_reversals": 7,
+  "e2_ratio_ci_excludes_one": 36,
+  "e2_total_ratios": 36,
+  "e2_reference_ratio_outside_ci": 33,
+  "weak_error_slopes": [
+    {
+      "tau": 0.02,
+      "delta": 0.0,
+      "l2_error_slope": 3.0017988271806053,
+      "relative_error_min": 0.00012264354036910653,
+      "relative_error_max": 0.001963716341245656
+    },
+    {
+      "tau": 0.02,
+      "delta": 0.5,
+      "l2_error_slope": 3.0257655089079707,
+      "relative_error_min": 1.601114435904959e-05,
+      "relative_error_max": 0.00026544607260162016
+    },
+    {
+      "tau": 0.02,
+      "delta": 1.0,
+      "l2_error_slope": 2.979891297918828,
+      "relative_error_min": 0.0002483591031240148,
+      "relative_error_max": 0.0038781095513434048
+    },
+    {
+      "tau": 0.08,
+      "delta": 0.0,
+      "l2_error_slope": 3.000066174236237,
+      "relative_error_min": 2.7238209252889548e-05,
+      "relative_error_max": 0.00043567994517826325
+    },
+    {
+      "tau": 0.08,
+      "delta": 0.5,
+      "l2_error_slope": 2.9956237228001847,
+      "relative_error_min": 1.8635845162402818e-05,
+      "relative_error_max": 0.0002964507868965946
+    },
+    {
+      "tau": 0.08,
+      "delta": 1.0,
+      "l2_error_slope": 2.994572608427114,
+      "relative_error_min": 9.50829528148981e-05,
+      "relative_error_max": 0.0015120102433561428
+    }
+  ]
+}

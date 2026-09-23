@@ -1,0 +1,100 @@
+{
+  "candidates": [
+    {
+      "tau": 0.0002,
+      "loss": 0.07145707205360846,
+      "scale": 1.7687601794515242,
+      "calibrated_loss": 0.05551209388357457,
+      "iterations": 401,
+      "residual": 3.282367030996925e-12,
+      "delta": 0.0
+    },
+    {
+      "tau": 0.001,
+      "loss": 0.1091761946522299,
+      "scale": 2.7046760588359184,
+      "calibrated_loss": 0.05575292423586155,
+      "iterations": 181,
+      "residual": 1.915633396296392e-12,
+      "delta": 0.0
+    },
+    {
+      "tau": 0.005,
+      "loss": 0.2059590263897577,
+      "scale": 4.530347335897609,
+      "calibrated_loss": 0.062096906737262626,
+      "iterations": 81,
+      "residual": 8.316469321784962e-13,
+      "delta": 0.0
+    },
+    {
+      "tau": 0.02,
+      "loss": 0.3600075104922681,
+      "scale": 8.290597300175254,
+      "calibrated_loss": 0.0700476907313048,
+      "iterations": 41,
+      "residual": 2.153142200619841e-13,
+      "delta": 0.0
+    },
+    {
+      "tau": 0.08,
+      "loss": 0.5376637455358145,
+      "scale": 19.999998263628502,
+      "calibrated_loss": 0.07640714451039271,
+      "iterations": 21,
+      "residual": 8.608444197321304e-14,
+      "delta": 0.0
+    },
+    {
+      "tau": 0.32,
+      "loss": 0.6432503636650421,
+      "scale": 19.999998671044366,
+      "calibrated_loss": 0.18147632988139903,
+      "iterations": 21,
+      "residual": 8.436300687989442e-18,
+      "delta": 0.0
+    }
+  ],
+  "records": [
+    {
+      "method": "ERM",
+      "scale": 1.0,
+      "iterations": 81,
+      "residual": 2.67234765371802e-13,
+      "tau": 0.02,
+      "delta": 0.0
+    },
+    {
+      "method": "Samplewise",
+      "scale": 1.0,
+      "iterations": 81,
+      "residual": 4.402556109627053e-13,
+      "tau": 0.02,
+      "delta": 1.0
+    },
+    {
+      "method": "Matched",
+      "scale": 1.8591409142295228,
+      "iterations": 81,
+      "residual": 7.694713784399258e-15,
+      "tau": 0.025430806348152438,
+      "delta": 0.0
+    },
+    {
+      "method": "Tuned",
+      "scale": 1.0,
+      "iterations": 741,
+      "residual": 8.336651121623245e-12,
+      "tau": 0.0002,
+      "delta": 0.0
+    },
+    {
+      "method": "Calibrated",
+      "scale": 1.7687601794515242,
+      "iterations": 741,
+      "residual": 8.336651121623245e-12,
+      "tau": 0.0002,
+      "delta": 0.0
+    }
+  ]
+}
